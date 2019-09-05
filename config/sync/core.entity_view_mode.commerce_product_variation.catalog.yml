@@ -1,0 +1,12 @@
+uuid: 20184e09-53e7-4828-99f1-dfb5e68afd12
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 7sU6r1KOGslz_556Gc-2zPS4SBjuQso0h2GFP3zzqyk
+id: commerce_product_variation.catalog
+label: Catalog
+targetEntityType: commerce_product_variation
+cache: true

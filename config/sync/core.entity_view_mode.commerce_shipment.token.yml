@@ -1,0 +1,10 @@
+uuid: 730fbd50-536a-4adb-a0db-0daf4991f94e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+id: commerce_shipment.token
+label: Token
+targetEntityType: commerce_shipment
+cache: true

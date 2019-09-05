@@ -1,0 +1,25 @@
+uuid: b8a91af9-5160-42f5-addb-717212f3e425
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_catalog_menu
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_menu
+  label: Catalog
+  provider: system
+  label_display: '1'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

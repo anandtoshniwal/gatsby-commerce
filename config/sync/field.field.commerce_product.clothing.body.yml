@@ -1,0 +1,24 @@
+uuid: c0b9c717-14bf-4023-9a6f-d3ff06f56f1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.clothing
+    - field.storage.commerce_product.body
+  module:
+    - text
+_core:
+  default_config_hash: fpswEbekIUWR7MCGn6iwQTDQnnoZxIWpe2HUMR3vfH4
+id: commerce_product.clothing.body
+field_name: body
+entity_type: commerce_product
+bundle: clothing
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: true
+field_type: text_with_summary

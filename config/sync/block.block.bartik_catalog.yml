@@ -1,0 +1,25 @@
+uuid: 402a9755-5bf3-4906-9e97-89514caafd18
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - bartik
+id: bartik_catalog
+theme: bartik
+region: footer_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

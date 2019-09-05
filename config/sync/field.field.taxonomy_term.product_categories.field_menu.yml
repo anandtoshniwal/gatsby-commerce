@@ -1,0 +1,23 @@
+uuid: dbc87e34-c92a-432b-8ca3-799c51897952
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_menu
+    - taxonomy.vocabulary.product_categories
+id: taxonomy_term.product_categories.field_menu
+field_name: field_menu
+entity_type: taxonomy_term
+bundle: product_categories
+label: Menu
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'True'
+  off_label: 'False'
+field_type: boolean
